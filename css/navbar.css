@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'handwriting-draft_free-version';
+    src: url(../font/handwriting-draft_free-version.ttf);
+}
+
+.barnav {
+  height: 50%;
+  width: 13%;
+  display: block;
+  position: fixed;
+  margin-left: 1%;
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    border: inset #2a93e1 4px;
+    margin-top: 2%;
+}
+
+
+nav a {
+    color: black;
+    font-size: 1.8em;
+    text-decoration: none;
+    font-family: 'handwriting-draft_free-version';
+}
+nav ul{
+   list-style-type:none; 
+   padding-left:0px;
+}

@@ -1,0 +1,66 @@
+/*responsive pour écran*/
+@media screen and (min-width:1500px){
+    nav{
+        width: 70%;
+    }
+}
+@media  screen and (max-width:1200px) {
+    .article1 img , .article4 img{
+        border: none;
+    }
+    header ul {
+        margin: 3% 5% 3% 5%;
+    }
+    header a{
+        padding: 1%;
+        font-size: 1.5;
+    }
+    h2{
+        font-size: 1.2;
+    }   
+    header li{
+        margin: auto;
+        margin-bottom: 2%;
+    }
+    .text{
+        font-size: 1em;
+    }
+    header h1{
+        font-size: 3em;
+    }
+}
+/*responsive pour téléphone et tablette*/
+@media screen and (max-width:900px) {
+    .barnav{
+        height: 25%;
+        margin-top: 2%;
+        margin-left: 1%;
+        width: 11%;
+    }
+    nav{
+        border: inset #2a93e1 2px;
+    }
+    nav a{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width:450px) {
+    header h1{
+        font-size: 2em;
+    }
+    header ul{
+        padding-left:0px;
+    }
+    .article4 img{
+        margin-right: 0%;
+    }
+    .article1 img, .article4 img{
+        max-width: 70%;   
+    }
+    .text{
+        font-size: 0.4em;
+    }
+    nav a {
+        font-size: 0.4em;
+    }
+}

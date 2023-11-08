@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'handwriting-draft_free-version';
+    src: url(../font/handwriting-draft_free-version.ttf);
+}
+
+
+header{
+    height: 15%;
+    width: 100%;
+    margin-top: 2%;
+    border-bottom: dotted black 3px;
+}
+
+
+header ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 3% 15% 3% 15%;
+}
+header h1{
+    text-align: center;
+    font-size: 4em;
+    font-family: 'handwriting-draft_free-version';
+}
+header a{
+    color: black;
+    font-size: 2em;
+    text-decoration: none;
+    border: dashed black 1px;
+    border-radius: 10px;
+    padding: 4%;
+    font-family: 'handwriting-draft_free-version';
+}
+header a:hover{
+    box-shadow: 10px 5px 5px black;
+}
+
